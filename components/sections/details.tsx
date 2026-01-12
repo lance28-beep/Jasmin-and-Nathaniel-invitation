@@ -67,17 +67,10 @@ export function Details() {
   const ceremonyMapsLink = `https://maps.google.com/?q=${encodeURIComponent(siteConfig.ceremony.location)}`
   const receptionMapsLink = `https://maps.google.com/?q=${encodeURIComponent(siteConfig.reception.location)}`
 
-  // Palettes (used only for color chips in attire card) - Spring Garden Theme
-  const sponsorPalette = [
-    { color: "#CDB592", name: "Beige" },
-    { color: "#C79C6F", name: "Caramel Brown" },
-    { color: "#F5E5CD", name: "Champagne Beige" },
-  ]
-  const guestPalette = [
-    { color: "#FCB8B3", name: "Dusty Rose" },
-    { color: "#CDE4C5", name: "Light Green" },
-    { color: "#FFD9B5", name: "Light Orange" },
-  ]
+  // Palettes (used only for color chips in attire card) - Emerald motif
+  const sponsorPalette = ["#CDB592", "#C79C6F", "#F5E5CD"]
+  const guestPalette = ["#327B72", "#187153", "#A98634", "#FACBC5", "#E5D0CD"]
+  const secondaryPalette = ["#B9AACB", "#F4F4F4", "#A8AF8D", "#6A4F82", "#5B6B3C"]
 
   const openInMaps = (link: string) => {
     window.open(link, "_blank", "noopener,noreferrer")
@@ -86,17 +79,8 @@ export function Details() {
   return (
     <Section
       id="details"
-      className="relative py-12 md:py-16 lg:py-20 overflow-hidden bg-[#187153]"
+      className="relative py-12 md:py-16 lg:py-20 overflow-hidden"
     >
-      {/* Background image - same as gallery */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <img
-          src="/Details/newBackground.jpg"
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
-        />
-      </div>
 
       {/* Header */}
       <div className="relative z-30 text-center mb-6 sm:mb-9 md:mb-12 px-3 sm:px-4">
@@ -255,110 +239,97 @@ export function Details() {
 
         <div className="space-y-3 sm:space-y-4">
           {/* Attire Guidelines */}
-          <div className="relative rounded-2xl border border-[#327B72]/40 bg-[#FFF5E6]/95 backdrop-blur-lg shadow-[0_18px_40px_rgba(24,113,83,0.18)] p-3.5 sm:p-5 overflow-hidden">
-            {/* Decorative background shapes */}
-            <div className="absolute inset-0 pointer-events-none overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-[#FFE5CC]/30 rounded-full blur-3xl" />
-              <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#FFE5CC]/20 rounded-full blur-2xl" />
+          <div className="relative rounded-2xl border border-[#327B72]/40 bg-white/85 backdrop-blur-lg shadow-[0_18px_40px_rgba(24,113,83,0.18)] p-3.5 sm:p-5 overflow-hidden">
+            <div className="mb-2.5 sm:mb-3 relative z-10 text-center">
+              <h4 className="text-[0.75rem] sm:text-sm md:text-base font-semibold tracking-[0.3em] uppercase text-[#187153]">
+                Attire &amp; Motif
+              </h4>
             </div>
 
-            {/* Title with circular icon */}
-            <div className="mb-3 sm:mb-4 relative z-10 text-center">
-              <div className="flex items-center justify-center gap-2 mb-2">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#FFE5CC]/60 border border-[#D2B48C]/40 flex items-center justify-center">
-                  <div className="w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-[#D2B48C]" />
-                </div>
-                <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-[#8B4513]">
-                  Attire
-                </h4>
-              </div>
-            </div>
-
-            {/* Theme Banner */}
-            <div className="mb-4 sm:mb-5 relative z-10">
-              <div className="rounded-xl bg-[#D4A574]/80 px-4 py-2.5 sm:px-6 sm:py-3 text-center shadow-md">
-                <p className="text-sm sm:text-base font-semibold text-white mb-1">
-                  Spring Theme - Garden Wedding
+            <div className="relative w-full rounded-2xl overflow-hidden border border-[#327B72]/60 shadow-xl bg-white p-4 sm:p-6 space-y-3 sm:space-y-4">
+              <div className="text-center space-y-2 sm:space-y-3">
+                <p className="text-base sm:text-lg md:text-xl font-semibold text-[#187153]">
+                  Garden Wedding
                 </p>
-                <p className="text-xs sm:text-sm text-white/90">
+                <p className="text-xs sm:text-sm text-[#187153]/90">
                   We encourage our guests to wear this color palette
                 </p>
               </div>
-            </div>
 
-            <div className="relative z-10 space-y-3 sm:space-y-4">
-              {/* PALETTE FOR PRINCIPAL SPONSORS */}
-              <div className="rounded-xl border border-[#D2B48C]/40 bg-[#FFFBF0] p-4 sm:p-5 shadow-sm">
-                <h5 className="text-xs sm:text-sm font-semibold text-[#8B4513] mb-3 sm:mb-4">
-                  PALETTE FOR PRINCIPAL SPONSORS
-                </h5>
-                <div className="flex flex-wrap gap-3 sm:gap-4 justify-center sm:justify-start">
-                  {sponsorPalette.map((item) => (
-                    <div key={item.name} className="flex flex-col items-center gap-2">
-                      <div
-                        className="w-12 h-12 sm:w-16 sm:h-16 rounded-full border-2 border-white shadow-md"
-                        style={{ backgroundColor: item.color }}
-                      />
-                      <p className="text-[10px] sm:text-xs text-[#8B4513] font-medium text-center">
-                        {item.name}
+              <div className="space-y-4">
+                <div className="border-t border-[#327B72] pt-4">
+                  <h5 className="font-semibold text-xs sm:text-sm text-[#187153] mb-2">Principal Sponsors Attire</h5>
+                  <p className="text-[10px] sm:text-xs text-[#187153]/80 mb-2">Kindly align attire below.</p>
+                  <div className="relative w-full aspect-[4/3] sm:aspect-[5/3] rounded-xl overflow-hidden border border-[#327B72] bg-[#FACBC5] mb-3">
+                    <Image
+                      src="/Details/sponsorsnewattire.png"
+                      alt="Principal sponsors attire guideline"
+                      fill
+                      className="object-contain"
+                      sizes="(min-width: 1024px) 700px, (min-width: 640px) 600px, 100vw"
+                      priority={false}
+                    />
+                  </div>
+                  <div className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
+                    <p className="text-[#187153]">
+                      <span className="font-semibold">Ninong:</span> Barong and black slacks
+                    </p>
+                    <p className="text-[#187153]">
+                      <span className="font-semibold">Ninang:</span> Beige or Champagne
+                    </p>
+                    <div className="pt-1">
+                      <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.15em] text-[#187153] mb-1">
+                        Palette
                       </p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {sponsorPalette.map((color) => (
+                          <span
+                            key={color}
+                            className="w-7 h-7 rounded-full border border-white/70 shadow-sm"
+                            style={{ backgroundColor: color }}
+                            title={color}
+                          />
+                        ))}
+                      </div>
                     </div>
-                  ))}
+                  </div>
                 </div>
-              </div>
 
-              {/* PALETTE FOR GUESTS */}
-              <div className="rounded-xl border border-[#D2B48C]/40 bg-[#FFFBF0] p-4 sm:p-5 shadow-sm relative">
-                <div className="absolute top-3 right-3">
-                  <span className="inline-block px-2 py-1 rounded-md bg-[#D4A574]/60 text-[10px] sm:text-xs font-semibold text-white">
-                    Theme: Spring
-                  </span>
-                </div>
-                <h5 className="text-xs sm:text-sm font-semibold text-[#8B4513] mb-3 sm:mb-4 pr-20">
-                  PALETTE FOR GUESTS
-                </h5>
-                <div className="flex flex-wrap gap-3 sm:gap-4 justify-center sm:justify-start">
-                  {guestPalette.map((item) => (
-                    <div key={item.name} className="flex flex-col items-center gap-2">
-                      <div
-                        className="w-12 h-12 sm:w-16 sm:h-16 rounded-full border-2 border-white shadow-md"
-                        style={{ backgroundColor: item.color }}
-                      />
-                      <p className="text-[10px] sm:text-xs text-[#8B4513] font-medium text-center">
-                        {item.name}
+                <div className="border-t border-[#327B72] pt-4">
+                  <h5 className="font-semibold text-xs sm:text-sm text-[#187153] mb-2">Wedding Guests</h5>
+                  <div className="relative w-full aspect-[4/3] sm:aspect-[5/3] rounded-xl overflow-hidden border border-[#327B72] bg-[#FACBC5] mb-3">
+                    <Image
+                      src="/Details/guestAttire.png"
+                      alt="Guest attire guideline"
+                      fill
+                      className="object-contain"
+                      sizes="(min-width: 1024px) 700px, (min-width: 640px) 600px, 100vw"
+                      priority={false}
+                    />
+                  </div>
+                  <div className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
+                    <p className="text-[#187153] font-semibold">
+                      Formal or Semi Formal
+                    </p>
+                    <p className="text-[#187153]">
+                      We encourage our guests to wear this color palette
+                    </p>
+                    <div className="pt-1">
+                      <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.15em] text-[#187153] mb-1">
+                        Palette
                       </p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {guestPalette.map((color) => (
+                          <span
+                            key={color}
+                            className="w-7 h-7 rounded-full border border-white/70 shadow-sm"
+                            style={{ backgroundColor: color }}
+                            title={color}
+                          />
+                        ))}
+                      </div>
                     </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Gentlemen */}
-              <div className="rounded-xl border border-[#D2B48C]/40 bg-[#FFFBF0] p-4 sm:p-5 shadow-sm">
-                <h5 className="text-xs sm:text-sm font-semibold text-[#8B4513] mb-2 sm:mb-3">
-                  Gentlemen
-                </h5>
-                <p className="text-xs sm:text-sm text-[#8B4513] font-medium mb-1">
-                  Long Sleeves or Suits &amp; Slacks
-                </p>
-                <p className="text-[10px] sm:text-xs text-[#8B4513]/70">
-                  Ties not required
-                </p>
-              </div>
-
-              {/* Ladies */}
-              <div className="rounded-xl border border-[#D2B48C]/40 bg-[#FFFBF0] p-4 sm:p-5 shadow-sm">
-                <h5 className="text-xs sm:text-sm font-semibold text-[#8B4513] mb-2 sm:mb-3">
-                  Ladies
-                </h5>
-                <p className="text-xs sm:text-sm text-[#8B4513] font-medium mb-1">
-                  Long Cocktail Dress (Satin, Floral, Textures)
-                </p>
-                <p className="text-[10px] sm:text-xs text-[#8B4513] mb-2 sm:mb-3">
-                  Heels suitable for outdoor terrain
-                </p>
-                <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-red-500/90 text-white">
-                  <span className="text-xs">▲</span>
-                  <span className="text-[10px] sm:text-xs font-semibold">No white dress</span>
+                  </div>
                 </div>
               </div>
             </div>

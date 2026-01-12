@@ -47,7 +47,71 @@ export const siteConfig = {
     note: "We kindly request our guests to dress in formal attire with a color of our motif."
   },
   narratives: {
-    groom: ` COMING SOON..`,
+    groom: ` WORTH THE WAIT
+
+It was the summer of 2013, when the heat lingered heavily in the air and the days felt longer…
+
+Teka. Parang movie intro, eh nhu?
+
+Alright, here is the real story.
+
+As early as 2012, I had already been seeing the Rosima family doing vacation in Pandayan whenever they came home from Laguna. They would usually visit during Holy Week, Christmas, or any long vacation. In a small town like ours, it was easy to notice families who regularly returned.
+
+During Holy Week of 2013, Kuya Angka invited me to hang out at the Rosima house. He was already close with the siblings, coz they were just neighbors. I agreed immediately, partly because I knew them and partly because Ate Venus had been my classmate back in Grade 6.
+
+When we arrived at their house, a beautiful, fair-skinned woman immediately caught my attention. She was busy washing dishes and taking care of her siblings, nieces and nephews. It was Nenet. Her glow-up was unbelievable. I used to only see her at the water pump when she was washing clothes or fetching water. We had known each other since elementary school, but back then I had a different crush, so I never really noticed her. I do not even remember us playing together as kids. Maybe it was also because our houses were a bit far apart.
+
+Seeing her that day felt different. Her transformation was impossible to ignore. She used to be sickly when we were younger, always sniffing and quiet. Now, I was the one feeling weak just from how beautiful she was. She had become even fairer and more stunning. But what truly made me fall for her at that moment was not just her looks. It was her diligence. She was caring, attentive, and naturally responsible. Watching her take care of her family made me think that she was truly wife material.
+
+That was when I told Kuya Angka, “I am going to pursue Jas.”
+
+Throughout the Holy Week vacation, we were constantly at their house, talking, laughing, and sharing stories until late into the night. Each evening felt easy and warm, like time slowed down whenever we were together.
+
+One day, while everyone was singing at their videoke, she brought out her digital camera. I got curious, grabbed it from the chair, and started taking photos. She noticed me but only smiled, which somehow made me more comfortable.
+
+I walked around the house, taking photos of their garden and even a ripe eggplant hanging near the fence. I was simply experimenting with the camera, enjoying the moment. When I checked the gallery, I noticed that after the photos of the plants came pictures of a cake. I soon realized that these were photos from her 18th birthday. I felt embarrassed, thinking she would not like those random plant photos mixed in with something so important. I tried to delete my pictures, found the delete button, and scrolled again.
+
+Suddenly, nothing appeared.
+
+My heart started racing. I panicked and said, “Jas, I think I deleted everything. I am sorry.”
+
+That moment, as terrifying as it was, became the beginning of our love story.
+
+Overwhelmed with guilt, I asked Kuya Angka for Jas’s phone number so I could apologize properly. That simple act turned into the start of our communication. I courted her many times, and I was rejected just as many times. Still, I refused to give up. We agreed that during their Christmas vacation in 2013, I would wait patiently for her final answer.
+
+By mid-2013, I was already working at EPZA Cavite with Ate Eliane, while Jas had started her first year as a nursing student. Even though she had not said yes, we already shared a deep understanding. I remember telling Ate Eliane one day, “I want to marry Jas. We will be the first couple from Pandayan to have a grand wedding.”
+
+But things seems not going as planned. I grew impatient waiting until December 2013. I told Jas, “Why do you not just answer me now? It is the same anyway.” She did not like that at all and decided to cut off our communication. I knew she was disappointed because I could not wait. We did not talk for almost a year because she blocked me completely.
+
+During Christmas week of 2014, my cousin Ian mentioned that there would be a PUP entrance exam the following year. Ever since I learned that Jas was in college, I had already thought that I should pursue college too. I did not feel worthy of her if I was not studying. I wanted to be someone her family could be proud of. So I entered college because I wanted to be deserving of Jasmin.
+
+Coincidentally, they went home that same Christmas, and we were able to talk again. I told her about my plan to take the entrance exam and took the chance to ask if she would give me another opportunity to court her. She said, “Okay, but only if you pass. If you do not, there will be no communication anymore.” I accepted the condition without hesitation.
+
+When the results came out, I messaged her and said, “So pano ba yan? I passed.”
+
+Then she gave me another condition. She asked if I could wait until she graduated from college. It was not meant to challenge me, but to fulfill a promise she had made to her older sisters to finish school before entering a relationship. I respectfully accepted and admired her even more for staying true to her word.
+
+During those years, we were in a mutual understanding. There were small fights, misunderstandings. I even forgot her birthday once because of how busy I was with school. We were like in a real relationship. Yet, in those four years, she never once said the words “I Love You.” Every time I said it, she would simply reply, “Thank You,” wawa ako nhu? 
+
+In 2018, the year she graduated, she asked for another favor. She wanted to officially say yes after her board exam. I agreed, but that was when I started feeling tired and questioning myself. I had already waited four years. Why extend it again? I sent her a message saying I could not wait anymore. I was frustrated and overwhelmed. What I did not realize was that her board exam was only a week away. I never intended my breaking point to come at such a painful time. It hurt deeply, and I know it hurt her even more.
+
+On December 7, 2018, I saw her sister’s post. Jas had passed the board exam. I felt relieved beyond words. If she had not passed, I would have blamed myself for the rest of my life. At that time, we still had no communication, and I was still blocked.
+
+During Christmas vacation of 2018, the Rosima family returned to our village again. As usual, I went with Kuya Angka to visit them. It was awkward, since only a few months had passed since our breakup, even though we were never officially together. We barely talked. I thought I no longer loved her. But when I saw her again after months, I knew the truth. She was still incredibly beautiful, and she was still the only woman I ever wanted to marry.
+
+While everyone was singing at the videoke, I sat beside her and whispered, “May I court you again? I realized that I truly love you.” She replied, “Think about it carefully. Are you really sure? I thought you were already tired.”
+
+I asked her to give me a chance to court her entire family during the Christmas vacation, and I was grateful that she accepted.
+
+On January 1, 2019, a new year and a new haircut done by my mom, I went to their house. I spoke with her brother, her sisters, her younger siblings, and finally her parents. They all accepted me and gave their blessing. At night, we sat in their small kubo outside. I told her that I had already asked permission from her whole family. I was extremely nervous. I did not even know what time it was. All I knew was that her family was asleep inside, and I was sitting beside the woman I loved most.
+
+She did not know that I had prepared a two-minute video, a compilation of her photos with the words WILL YOU BE MY GIRLFRIEND appearing one by one. After she watched it and smiled shyly, I showed her my phone screen with the same question written boldly.
+
+She lifted both her thumbs and whispered, “Yes. I LOVE YOU.”
+
+I wanted to cry. I wanted to shout. Finally, after four years of waiting, the woman of my dreams is now my girlfriend. Praise God.
+
+I realized that our love is truly worth the wait. It is amazing to think that from accidentally deleting her debut photos, we are now creating memories that will last through our wedding and beyond. We are deeply grateful to God for teaching us how to forgive, how to wait, and how to trust, because we know that even greater things are still ahead.`,
     bride: `A Decade of Waiting
 
 One ordinary day during Holy Week of 2013, while I was spending my vacation in our small town of Pandayan, a group of young men visited our home. Among them were Kuya Angka, our neighbor; Junjun; JemJem, my younger sister’s friend; and one unfamiliar face named Nathaniel.
