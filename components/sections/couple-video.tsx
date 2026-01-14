@@ -190,10 +190,25 @@ export function CoupleVideo() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-center mt-8 sm:mt-10"
+            className="text-center mt-8 sm:mt-10 space-y-2 sm:space-y-3"
           >
-            <p className="text-sm sm:text-base md:text-lg text-white/90 font-light italic max-w-2xl mx-auto px-4 leading-relaxed" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}>
+            <p
+              className="text-sm sm:text-base md:text-lg text-white/90 font-light italic max-w-2xl mx-auto px-4 leading-relaxed"
+              style={{ textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}
+            >
               "Will you marry me?" — The moment that sealed our forever
+            </p>
+            <p
+              className="text-xs sm:text-sm md:text-base text-white/85 font-light max-w-2xl mx-auto px-4 leading-relaxed"
+              style={{ textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}
+            >
+              Under the cherry blossoms of Nabana no Sato Flower Garden, Mie-ken, Japan, I asked forever and she said YES.
+            </p>
+            <p
+              className="text-[0.7rem] sm:text-xs md:text-sm tracking-[0.18em] uppercase text-white/80 max-w-2xl mx-auto px-4"
+              style={{ textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}
+            >
+              March 25, 2024
             </p>
           </motion.div>
         </div>

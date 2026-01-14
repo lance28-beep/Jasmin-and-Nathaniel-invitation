@@ -23,10 +23,9 @@ export function SnapShare() {
   const websiteUrl = typeof window !== "undefined" ? window.location.href : "https://example.com"
   const driveLink = siteConfig.snapShare?.googleDriveLink || ""
   const hashtags = [
-    "#NathanielAndJasmin2026",
-    "#NathanielJasminForever",
-    "#NathanielAndJasmin",
-    "#NATHJAStodaybutaLifetime"
+    "#NATHJAStodaybutlifetime",
+    "#NATHagpuanniJASangforever",
+    "#NATHinggonnastopJASnow",
   ]
   const allHashtagsText = hashtags.join(" ")
   const groomNickname = siteConfig.couple.groomNickname
