@@ -68,10 +68,18 @@ export function Details() {
   const receptionMapsLink = `https://maps.google.com/?q=${encodeURIComponent(siteConfig.reception.location)}`
 
   // Palettes (used only for color chips in attire card) - Emerald motif
-  const sponsorPalette = ["#CDB592", "#C79C6F", "#F5E5CD"]
-  const guestPalette = ["#327B72", "#187153", "#A98634", "#FACBC5", "#E5D0CD"]
-  const secondaryPalette = ["#B9AACB", "#F4F4F4", "#A8AF8D", "#6A4F82", "#5B6B3C"]
-
+  const sponsorPalette = [
+    { color: "#CDB592", label: "Beige" },
+    { color: "#C79C6F", label: "Champagne" },
+    { color: "#F5E5CD", label: "Cream" },
+  ]
+  const guestPalette = [
+    { color: "#327B72", label: "Teal Green" },
+    { color: "#187153", label: "Emerald Green" },
+    { color: "#A98634", label: "Gold" },
+    { color: "#FACBC5", label: "Pink" },
+    { color: "#E5D0CD", label: "Blush Pink" },
+  ]
   const openInMaps = (link: string) => {
     window.open(link, "_blank", "noopener,noreferrer")
   }
@@ -281,14 +289,19 @@ export function Details() {
                       <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.15em] text-[#187153] mb-1">
                         Palette
                       </p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {sponsorPalette.map((color) => (
-                          <span
-                            key={color}
-                            className="w-7 h-7 rounded-full border border-white/70 shadow-sm"
-                            style={{ backgroundColor: color }}
-                            title={color}
-                          />
+                      <div className="grid grid-cols-3 gap-x-3 gap-y-2 justify-items-center">
+                        {sponsorPalette.map(({ color, label }) => (
+                          <div key={color} className="w-full max-w-[92px] flex flex-col items-center">
+                            <span
+                              className="w-7 h-7 rounded-full border border-white/70 shadow-sm"
+                              style={{ backgroundColor: color }}
+                              title={label}
+                              aria-label={label}
+                            />
+                            <span className="mt-1 text-[9px] sm:text-[10px] font-semibold text-[#187153]/85 text-center leading-tight">
+                              {label}
+                            </span>
+                          </div>
                         ))}
                       </div>
                     </div>
@@ -318,14 +331,19 @@ export function Details() {
                       <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.15em] text-[#187153] mb-1">
                         Palette
                       </p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {guestPalette.map((color) => (
-                          <span
-                            key={color}
-                            className="w-7 h-7 rounded-full border border-white/70 shadow-sm"
-                            style={{ backgroundColor: color }}
-                            title={color}
-                          />
+                      <div className="grid grid-cols-3 sm:grid-cols-5 gap-x-3 gap-y-2 justify-items-center">
+                        {guestPalette.map(({ color, label }) => (
+                          <div key={color} className="w-full max-w-[92px] flex flex-col items-center">
+                            <span
+                              className="w-7 h-7 rounded-full border border-white/70 shadow-sm"
+                              style={{ backgroundColor: color }}
+                              title={label}
+                              aria-label={label}
+                            />
+                            <span className="mt-1 text-[9px] sm:text-[10px] font-semibold text-[#187153]/85 text-center leading-tight">
+                              {label}
+                            </span>
+                          </div>
                         ))}
                       </div>
                     </div>
